@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            /* flex-wrap: wrap;jodi jayga hoy taile atbe naile porer line e chole jabe */
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .food{
+            border: 3px solid violet;
+            border-radius: 30px;
+            margin: 10px;
+            width: 350px;
+        }
+        .food img{
+            width: 100%;
+        }
+        @media (max-width:760px){
+            .container{flex-direction: column;}
+            .container .food{
+                background-color: wheat;
+                
+            }
+          
+        }
+        @media (min-width: 900px) {
+                .container .food{
+                    background-color: yellowgreen;
+                }
+                
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+         <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat delectusmus reiciendis obcaecati, natus quam est architecto ratione ullam esse.</span><span>Nulla reprehenderit iusto quo modi culpa quia uam, voluptates distinctio tempore quisquam.</span></p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p><span>Magnam cumque sequi animi voluptatem unde, esse eius, laudantium sint mavoluptatibus ullam alias esse.</span><span>Tempora minus iste non. Modi velit doloribus distinctio qui rerum, sapieplaceat facilis, consectetur voluptas est ab.</span></p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p><span>Suscipit sit iusto explicabo in tempora atque quos nostrum quam dolorem aliquid maxime molestiae ne at saepe voluptates? Eaque, alias provident?</span><span>Nam, cupiditate! eveniet corrupti voluptates sit Tempore aperiam dicta, nesciunt cumque excepturi quasi blanditiis!</span></p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p><span>Dicta ab qui aut deleniti, in nihil delectus, aliquam repudiandae maiores quia perspiciatis quis sint magnam numquam mollitia laudantium doltae error autem aspernatur?</span><span>Perferendis ipsa rem cum eligendi laborum dolores consequatur, plConsequuntur temporibus commodi unde!</span></p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p><span>Impedit, dolore fugit ea rem distinctio labe, excepturi doloribus iusto beatae quasi quod. Expedita, officia nisi.</span><span>Cumque, voluptates magni aspernatur similique sedolore eius in unde rerum nesciunt dolores fuga sit repellat.</span></p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p><span>Laborum rem molestiae volupuam minima unt quia, esse dolorem voluptas beatae repellat! Quam?</span><span>Magnam at necessitatibus voluptates ut sequi ram optio conspm quisquam quo? Hic, nam omnis?</span></p>
+        </div>
+    </div>
+</body>
+</html>

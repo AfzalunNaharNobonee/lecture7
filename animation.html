@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+    }
+    @keyframes start {
+        0%{
+            left: 0;
+            background-color: yellow;
+            top: 0;
+        }
+        50%{
+            background-color: red;
+            top: 120px;
+            left: 400px;
+        }
+        100%{
+            background-color: yellow;
+            top: 0px;
+            left: 800px;
+            
+            }
+      }
+    .screen{
+        height: 200px;
+        width: 880px;
+        background-color: lightblue;
+    }
+    .sun{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        background-color: yellow;
+        position: absolute;
+    }
+    
+    .screen:hover .sun{
+        animation: start 3s ease-in 1s infinite alternate ;
+    }
+
+
+</style>
+
+<body>
+    <div class="screen">
+        <div class="sun"></div>
+    </div>
+</body>
+</html>
